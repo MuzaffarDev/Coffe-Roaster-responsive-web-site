@@ -1,0 +1,41 @@
+.hero{
+  background-image:url(/image/co.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 10px;
+  margin-top: 70px;
+  margin-bottom: 142px;
+}
+
+.hero__left{
+  max-width: 493px;
+  display: inline-block;
+  margin-top: 123px;
+  margin-left: 71px;
+  margin-bottom: 110px;
+}
+
+.hero__title{
+  font-family:"Fraunces",'Tahoma',sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  margin: 0;
+  color:$light-cream;
+}
+
+.hero__descr{
+  display: inline-block;
+  padding: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color:$light-cream;
+  margin-top: 32px;
+  margin-bottom: 56px;
+  opacity: 0.8;
+}
+
+@media only screen and(max-width:768){
+  
+}

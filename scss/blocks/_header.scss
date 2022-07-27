@@ -1,0 +1,54 @@
+.header {
+  background-color: $light-cream;
+  padding: 20px 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.header__wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: inline-block;
+}
+
+.header__nav-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: $grey;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 15px;
+  margin-right: 33px;
+
+  // &:last-child{
+  //   margin-right: 0;
+  // } shunaqa qilsa ham boladimi ustoz?
+
+  &:hover{
+    color: $darck-grey-blue;
+  }
+}
+
+.header__nav-link:last-child {
+  margin-right: 0;
+}
+
+
+.header__menu {
+  display: none;
+  flex-shrink: 0;
+  width: 16px;
+  height: 15px;
+  background-color: transparent;
+  border: none;
+  padding: 0;
+  background-image: url(/image/menu.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+}

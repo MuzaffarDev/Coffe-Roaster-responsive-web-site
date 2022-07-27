@@ -1,0 +1,94 @@
+.why {
+  position: relative;
+  min-height: 577px;
+  padding-top: 100px;
+  padding-bottom: 317px;
+  margin-bottom: 350px;
+  background-color: $darck-grey-blue;
+  border-radius: 10px;
+  color: $light-cream;
+  text-align: center;
+}
+
+.why__title {
+  font-family: "Fraunces", "Tahoma", sans-serif;
+  font-weight: 900px;
+  font-size: 40px;
+  line-height: 46px;
+}
+
+.why__descr {
+  max-width: 540px;
+  margin: 0 auto;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  color: $light-cream;
+  margin-bottom: 86px;
+}
+
+.why__wrap {
+  position: absolute;
+  max-width: 1110px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  right: 50px;
+  transform: translateZ(50px, 50px);
+}
+
+.why__item {
+  max-width: 350px;
+  margin-right: 30px;
+  padding: 48px;
+  padding-top: 72px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+  background-color: $darck-cyan;
+  border-radius: 8px;
+}
+
+.why__item::before {
+  content: "";
+  display: block;
+  width: 72px;
+  height: 72px;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center center;
+  margin-bottom: 56px;
+}
+
+.why__1::before {
+  background-image: url(/image/coffe-zerno.svg);
+}
+.why__2::before {
+  background-image: url(/image/podarka.svg);
+}
+.why__3::before {
+  background-image: url(/image/labo.svg);
+}
+
+.why__heading {
+  margin-bottom: 24px;
+  font-family: "Fraunces", "serif";
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: $light-cream;
+}
+
+.why__text {
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 26px;
+  color: $light-cream;
+}
+
+@media only screen and (max-widht: 768px) {
+  .header__nav a {
+    display: none;
+  }
+}

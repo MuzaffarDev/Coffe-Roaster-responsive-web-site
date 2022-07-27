@@ -1,0 +1,36 @@
+.collection{
+  padding-top: 126px;
+  background:url(/image/Group\ 13.png);
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.collection__list{
+  max-width: 1110px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.collection__item{
+  max-width: 255px;
+  text-align: center;
+}
+
+.collection__title{
+  font-family:"Fraunces",'Tahoma',sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color:$darck-grey-blue;
+}
+
+.collection__descr{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color-scheme: $darck-grey-blue;
+}

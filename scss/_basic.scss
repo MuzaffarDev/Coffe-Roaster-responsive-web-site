@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "Barlow", "Tahoma", sans-serif;
+  background-color:$light-cream;
+}
+
+.container {
+  max-width: 1320px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-widht: 768px) {
+  container {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (max-widht: 375px) {
+  container {
+    padding: 0 24px;
+  }
+}

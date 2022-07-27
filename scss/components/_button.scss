@@ -1,0 +1,21 @@
+.button{
+  background-color: $darck-cyan;
+  font-family:"Fraunces","Tahoma", serif;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  color: $light-cream;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  border:none;
+  cursor: pointer;
+  border-radius: 6px;
+
+  &:hover{
+    background-color: #66D2CF;
+  }
+  &:active{
+    background-color: #E2DEDB;
+  }
+}
